@@ -1,10 +1,6 @@
 [language-server.clangd]
 command = "clangd"
-args = [
-  "--clang-tidy",
-  "--fallback-style=WebKit",
-  "--header-insertion=never"
-]
+args = ["--clang-tidy", "--fallback-style=WebKit", "--header-insertion=never"]
 
 [[language]]
 name = "scheme"
